@@ -30,7 +30,7 @@ function ContactForm() {
   }
 
   return (
-    <article className="bg-White-fff w-full max-w-[46rem] rounded-2xl p-6">
+    <article className="bg-White-fff w-full max-w-[46rem] rounded-2xl p-6 lg:p-10">
       <h2 className="text-[2rem] leading-[1] font-bold tracking-[-1px]">
         Contact Us
       </h2>

@@ -7,7 +7,7 @@ function App() {
       <header className="sr-only">
         <h1>Contact Form</h1>
       </header>
-      <main className="mx-4 my-8 flex justify-center">
+      <main className="mx-4 my-8 flex justify-center lg:mt-32">
         <ContactForm />
       </main>
 

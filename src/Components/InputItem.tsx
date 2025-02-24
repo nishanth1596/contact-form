@@ -70,7 +70,6 @@ function InputItem({
         </label>
         <textarea
           id={id}
-          autoComplete={name}
           placeholder="Type your message here..."
           className={`${error ? "border-Red-Errors" : "border-Grey-500"} hover:border-Green-600 inset-0.5 mt-2 box-border block min-h-[132px] w-full rounded-lg border px-6 py-3 sm:min-h-[105px]`}
           {...register(id, {
@@ -95,7 +94,6 @@ function InputItem({
         className={`${error ? "border-Red-Errors" : "border-Grey-500"} hover:border-Green-600 inset-0.5 mt-2 box-border block min-h-[51px] w-full rounded-lg border px-6 py-3`}
         type={type}
         id={id}
-        autoComplete={name}
         {...register(id, rules)}
       />
       {error && (

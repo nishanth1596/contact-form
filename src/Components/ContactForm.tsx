@@ -103,7 +103,7 @@ function ContactForm() {
                 "To submit this form, please consent to being contacted",
             })}
           />
-          <label className="leading-[1.5] font-normal">
+          <label htmlFor="consent" className="leading-[1.5] font-normal">
             I consent to being contacted by the team{" "}
             <span className="text-Green-600">*</span>
           </label>

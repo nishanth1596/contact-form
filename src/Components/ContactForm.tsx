@@ -97,6 +97,7 @@ function ContactForm() {
         <div className="mt-10 flex min-h-[51px] w-full items-center gap-3 pr-4">
           <input
             type="checkbox"
+            id="consent"
             {...register("consent", {
               required:
                 "To submit this form, please consent to being contacted",
